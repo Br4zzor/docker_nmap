@@ -1,4 +1,4 @@
-FROM mini/base
+FROM mini/base:latest
 MAINTAINER Br4zzor <br4zzor@protonmail.com>
 
 RUN apk --update add nmap && rm -f /var/cache/apk/*
